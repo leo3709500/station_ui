@@ -80,6 +80,7 @@ class Ui_MainWindow(object):
         # 註冊日期輸入欄位
         self.dateEdit = QtWidgets.QDateEdit(self.layoutWidget_2)
         self.dateEdit.setObjectName("dateEdit")
+        self.dateEdit.setDisplayFormat("yyyy/MM/dd")
         self.gridLayout.addWidget(self.dateEdit, 1, 1, 1, 1)
         
         # 檢驗費用輸入欄位
