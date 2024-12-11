@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
 
-# 這個檔案是從 'C:\DBMS\ui\add.ui' 讀取的 UI 文件生成的表單實現
+# 這個檔案是從 'C:\github\station_ui\ui\add.ui' 讀取的 UI 文件生成的表單實現
 #
-# 由 PyQt5 UI 代碼生成器 5.15.10 創建
+# 由 PyQt5 UI 代碼生成器 5.15.11 創建
 #
-# 警告：任何對此文件的手動更改將在再次運行 pyuic5 時丟失。
-# 除非您知道自己在做什麼，否則不要編輯此文件。
+# 警告：如果再次運行 pyuic5，任何手動更改都會丟失。除非你知道自己在做什麼，否則不要編輯這個文件。
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
@@ -62,7 +61,7 @@ class Ui_MainWindow(object):
         self.id.setObjectName("id")
         self.gridLayout.addWidget(self.id, 1, 1, 1, 1)
         
-        # 設定日期編輯器
+        # 設定出生年月日選擇器
         self.dateEdit = QtWidgets.QDateEdit(self.layoutWidget)
         self.dateEdit.setObjectName("dateEdit")
         self.gridLayout.addWidget(self.dateEdit, 7, 1, 1, 1)
@@ -128,11 +127,10 @@ class Ui_MainWindow(object):
         self.label_9.setObjectName("label_9")
         self.gridLayout.addWidget(self.label_9, 3, 0, 1, 1)
         
-        # 設定註冊日期輸入框
-        self.reg_date = QtWidgets.QLineEdit(self.layoutWidget)
-        self.reg_date.setObjectName("reg_date")
-        self.dateEdit.setDisplayFormat("yyyy/MM/dd")
-        self.gridLayout.addWidget(self.reg_date, 3, 1, 1, 1)
+        # 設定註冊日期選擇器
+        self.dateEdit_2 = QtWidgets.QDateEdit(self.layoutWidget)
+        self.dateEdit_2.setObjectName("dateEdit_2")
+        self.gridLayout.addWidget(self.dateEdit_2, 3, 1, 1, 1)
         
         # 設定按鈕佈局小工具
         self.layoutWidget1 = QtWidgets.QWidget(self.centralwidget)
