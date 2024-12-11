@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>50</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>其他監理站</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>130</y>
+      <width>581</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="alternatingRowColors">
+     <bool>false</bool>
+    </property>
+    <property name="sortingEnabled">
+     <bool>false</bool>
+    </property>
+    <attribute name="horizontalHeaderCascadingSectionResizes">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>191</number>
+    </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>30</number>
+    </attribute>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string/>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>所站名稱</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>地址</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>電話</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string>臺北市區監理所</string>
+     </property>
+     <property name="textAlignment">
+      <set>AlignLeading|AlignVCenter</set>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string>臺北市松山區八德路四段21號</string>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string>02-27630155</string>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string>士林監理站</string>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string>臺北市士林區承德路五段80號</string>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string>02-28314155</string>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string>基隆監理站</string>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string>基隆市七堵區實踐路296號</string>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string>02-24515311</string>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string>連江監理站</string>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string>連江縣南竿鄉津沙村155號</string>
+     </property>
+    </item>
+    <item row="3" column="2">
+     <property name="text">
+      <string>0836-22694</string>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string>金門監理站</string>
+     </property>
+    </item>
+    <item row="4" column="1">
+     <property name="text">
+      <string>金門縣金湖鎮黃海路六之一號</string>
+     </property>
+    </item>
+    <item row="4" column="2">
+     <property name="text">
+      <string>082-332407</string>
+     </property>
+    </item>
+    <item row="5" column="0">
+     <property name="text">
+      <string>臺北區監理所</string>
+     </property>
+    </item>
+    <item row="5" column="1">
+     <property name="text">
+      <string>新北市樹林區中正路248巷7號</string>
+     </property>
+    </item>
+    <item row="5" column="2">
+     <property name="text">
+      <string>02-26884366</string>
+     </property>
+    </item>
+    <item row="6" column="0">
+     <property name="text">
+      <string>蘆洲監理站</string>
+     </property>
+    </item>
+    <item row="6" column="1">
+     <property name="text">
+      <string>新北市蘆洲區中山二路163號</string>
+     </property>
+    </item>
+    <item row="6" column="2">
+     <property name="text">
+      <string>02-22886883</string>
+     </property>
+    </item>
+    <item row="7" column="0">
+     <property name="text">
+      <string>板橋監理站</string>
+     </property>
+    </item>
+    <item row="7" column="1">
+     <property name="text">
+      <string>新北市中和區中山路三段116號</string>
+     </property>
+    </item>
+    <item row="7" column="2">
+     <property name="text">
+      <string>02-22227835</string>
+     </property>
+    </item>
+    <item row="8" column="0">
+     <property name="text">
+      <string>宜蘭監理站</string>
+     </property>
+    </item>
+    <item row="8" column="1">
+     <property name="text">
+      <string>宜蘭縣五結鄉中正路二段9號</string>
+     </property>
+    </item>
+    <item row="8" column="2">
+     <property name="text">
+      <string>03-9658461</string>
+     </property>
+    </item>
+    <item row="9" column="0">
+     <property name="text">
+      <string>花蓮監理站</string>
+     </property>
+    </item>
+    <item row="9" column="1">
+     <property name="text">
+      <string>花蓮縣吉安鄉中正路二段152號</string>
+     </property>
+    </item>
+    <item row="9" column="2">
+     <property name="text">
+      <string>03-8523166</string>
+     </property>
+    </item>
+    <item row="10" column="0">
+     <property name="text">
+      <string>玉里監理分站</string>
+     </property>
+    </item>
+    <item row="10" column="1">
+     <property name="text">
+      <string>花蓮縣玉里鎮中華路427號</string>
+     </property>
+    </item>
+    <item row="10" column="2">
+     <property name="text">
+      <string>03-8883161</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>520</y>
+      <width>102</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>返回主畫面</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

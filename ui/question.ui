@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>721</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>3</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Q1</string>
+     </attribute>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>120</y>
+        <width>491</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>21</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string>Q1：汽車定期檢驗次數之規定如何？</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>170</y>
+        <width>681</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>1.自用小客車（LPG車、租賃車除外）新領牌照後出廠未滿5年者免檢驗，出廠
+2.出廠年份逾10年之營業大客車或高壓罐槽車每年至少檢驗3次。
+3.拖車每年檢驗1次。
+4.其他汽車出廠未滿5年者每年檢驗1次，5年以上者每年檢驗2次。
+5年以上未滿10年者每年檢驗1次，10年以上者每年檢驗2次。
+
+</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Q2</string>
+     </attribute>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>170</y>
+        <width>681</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>1.檢驗不合格者，應於1個月內整修完善，申請覆驗。
+2.凡於7日內覆驗免收費1次，第8日起覆驗應收覆驗費。
+3.覆驗時，只檢驗不合格項目。
+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>641</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>21</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string>Q2.：檢驗不合格之汽車，如何辦理覆驗？
+覆驗時是否應再繳納檢驗費？</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Q3</string>
+     </attribute>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>180</y>
+        <width>771</width>
+        <height>261</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>依據道路交通安全規則第52條規定駕照有效期間：
+1. 自中華民國102年7月1日起，新領或已領有之各類普通駕駛執照，免定期申請換發；其已領有之駕駛執照
+有效期間屆滿後，仍屬有效，並得免換發之；外國人取得外僑永久居留證者，亦同。
+2. 受終身不得考領駕駛執照處分重新申請考驗合格後領有1年有效期間駕駛執照。
+3. 外國人、大陸地區人民、香港或澳門居民或臺灣地區無戶籍之國民考領換領我國汽車駕駛執照應每滿6年換發。
+4. 特定年齡以上之汽車駕駛人另有規定其普通駕駛執照有效期間及申請換發新照規定時，應依規定辦理之。
+5. 汽車駕駛人應於有效期限屆滿前後1個月內向公路監理機關申請換發。除前項免再依規定申請換發之情形外，
+汽車駕駛執照逾期未換發新照者，不得駕駛汽車。
+依據道路交通管理處罰條例第22條規定：
+駕駛執照逾有效期間仍駕車者，處新臺幣1800元以上3600元以下罰鍰，並禁止其駕駛； 駕駛執照並應扣繳之。
+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>711</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>21</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string>Q3：汽(機)車駕駛執照換發之處罰條款
+或相關法規之規定如何？</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>Q4</string>
+     </attribute>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>140</y>
+        <width>681</width>
+        <height>291</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>(一)應備文件
+1.國民身分證或戶口名簿（佐以其他貼有本人相片之足資證明其 身分之證件，
+如全民健保卡、護照、軍人身分證或駕駛執照等）或僑民居留證正本。
+2.原新領之駕駛執照正本。
+(二)連同應備文件，至各公路監理機關服務台抽取號碼單等候叫號辦理，或用郵寄
+通信方式辦理。
+(三)注意事項：
+1.若有違反道路交通管理事件，應結清罰鍰，
+或辦理分期付款並繳納第一期罰鍰金額。
+2.駕照背面之「住址變更」欄已填滿者應換發新照，並繳納規費
+新臺幣50元；駕照已到期應同時辦理換照者，繳納規費新臺幣200元。
+</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>581</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>21</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="autoFillBackground">
+       <bool>true</bool>
+      </property>
+      <property name="text">
+       <string>Q4：汽(機)車駕駛人住址變更，應如何辦理？</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>520</y>
+      <width>102</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>返回主畫面</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
