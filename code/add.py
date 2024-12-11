@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
 
-# 由 PyQt5 UI 代碼生成器 5.15.10 從 'C:\DBMS\ui\add.ui' 讀取的表單實現
+# 這個檔案是從 'C:\DBMS\ui\add.ui' 讀取的 UI 文件生成的表單實現
 #
-# 警告：此文件的任何手動更改將在再次運行 pyuic5 時丟失。除非您知道自己在做什麼，否則不要編輯此文件。
+# 由 PyQt5 UI 代碼生成器 5.15.10 創建
+#
+# 警告：任何對此文件的手動更改將在再次運行 pyuic5 時丟失。
+# 除非您知道自己在做什麼，否則不要編輯此文件。
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
@@ -26,24 +29,27 @@ class Ui_MainWindow(object):
         self.gridLayout.setContentsMargins(0, 0, 0, 0)
         self.gridLayout.setObjectName("gridLayout")
         
-        # 設定各個輸入框和標籤
-        self.lineEdit_2 = QtWidgets.QLineEdit(self.layoutWidget)
-        self.lineEdit_2.setObjectName("lineEdit_2")
-        self.gridLayout.addWidget(self.lineEdit_2, 0, 1, 1, 1)
+        # 設定姓名輸入框
+        self.name = QtWidgets.QLineEdit(self.layoutWidget)
+        self.name.setObjectName("name")
+        self.gridLayout.addWidget(self.name, 0, 1, 1, 1)
         
-        self.lineEdit_6 = QtWidgets.QLineEdit(self.layoutWidget)
-        self.lineEdit_6.setObjectName("lineEdit_6")
-        self.gridLayout.addWidget(self.lineEdit_6, 5, 1, 1, 1)
+        # 設定信箱輸入框
+        self.email = QtWidgets.QLineEdit(self.layoutWidget)
+        self.email.setObjectName("email")
+        self.gridLayout.addWidget(self.email, 5, 1, 1, 1)
         
-        self.lineEdit = QtWidgets.QLineEdit(self.layoutWidget)
-        self.lineEdit.setObjectName("lineEdit")
-        self.gridLayout.addWidget(self.lineEdit, 4, 1, 1, 1)
+        # 設定地址輸入框
+        self.address = QtWidgets.QLineEdit(self.layoutWidget)
+        self.address.setObjectName("address")
+        self.gridLayout.addWidget(self.address, 4, 1, 1, 1)
         
-        self.lineEdit_4 = QtWidgets.QLineEdit(self.layoutWidget)
-        self.lineEdit_4.setEchoMode(QtWidgets.QLineEdit.Password) # 輸入隱藏
-        self.lineEdit_4.setObjectName("lineEdit_4")
-        self.gridLayout.addWidget(self.lineEdit_4, 2, 1, 1, 1)
+        # 設定密碼輸入框
+        self.password = QtWidgets.QLineEdit(self.layoutWidget)
+        self.password.setObjectName("password")
+        self.gridLayout.addWidget(self.password, 2, 1, 1, 1)
         
+        # 設定出生年月日標籤
         self.label_6 = QtWidgets.QLabel(self.layoutWidget)
         font = QtGui.QFont()
         font.setPointSize(13)
@@ -51,14 +57,17 @@ class Ui_MainWindow(object):
         self.label_6.setObjectName("label_6")
         self.gridLayout.addWidget(self.label_6, 7, 0, 1, 1)
         
-        self.lineEdit_3 = QtWidgets.QLineEdit(self.layoutWidget)
-        self.lineEdit_3.setObjectName("lineEdit_3")
-        self.gridLayout.addWidget(self.lineEdit_3, 1, 1, 1, 1)
+        # 設定身分證字號輸入框
+        self.id = QtWidgets.QLineEdit(self.layoutWidget)
+        self.id.setObjectName("id")
+        self.gridLayout.addWidget(self.id, 1, 1, 1, 1)
         
+        # 設定日期編輯器
         self.dateEdit = QtWidgets.QDateEdit(self.layoutWidget)
         self.dateEdit.setObjectName("dateEdit")
         self.gridLayout.addWidget(self.dateEdit, 7, 1, 1, 1)
         
+        # 設定電話標籤
         self.label_5 = QtWidgets.QLabel(self.layoutWidget)
         font = QtGui.QFont()
         font.setPointSize(13)
@@ -66,10 +75,12 @@ class Ui_MainWindow(object):
         self.label_5.setObjectName("label_5")
         self.gridLayout.addWidget(self.label_5, 6, 0, 1, 1)
         
-        self.lineEdit_5 = QtWidgets.QLineEdit(self.layoutWidget)
-        self.lineEdit_5.setObjectName("lineEdit_5")
-        self.gridLayout.addWidget(self.lineEdit_5, 6, 1, 1, 1)
+        # 設定電話輸入框
+        self.phone_number = QtWidgets.QLineEdit(self.layoutWidget)
+        self.phone_number.setObjectName("phone_number")
+        self.gridLayout.addWidget(self.phone_number, 6, 1, 1, 1)
         
+        # 設定姓名標籤
         self.label = QtWidgets.QLabel(self.layoutWidget)
         font = QtGui.QFont()
         font.setPointSize(13)
@@ -77,6 +88,7 @@ class Ui_MainWindow(object):
         self.label.setObjectName("label")
         self.gridLayout.addWidget(self.label, 0, 0, 1, 1)
         
+        # 設定信箱標籤
         self.label_7 = QtWidgets.QLabel(self.layoutWidget)
         font = QtGui.QFont()
         font.setPointSize(13)
@@ -84,6 +96,7 @@ class Ui_MainWindow(object):
         self.label_7.setObjectName("label_7")
         self.gridLayout.addWidget(self.label_7, 5, 0, 1, 1)
         
+        # 設定身分證字號標籤
         self.label_2 = QtWidgets.QLabel(self.layoutWidget)
         font = QtGui.QFont()
         font.setPointSize(13)
@@ -91,6 +104,7 @@ class Ui_MainWindow(object):
         self.label_2.setObjectName("label_2")
         self.gridLayout.addWidget(self.label_2, 1, 0, 1, 1)
         
+        # 設定地址標籤
         self.label_4 = QtWidgets.QLabel(self.layoutWidget)
         font = QtGui.QFont()
         font.setPointSize(13)
@@ -98,6 +112,7 @@ class Ui_MainWindow(object):
         self.label_4.setObjectName("label_4")
         self.gridLayout.addWidget(self.label_4, 4, 0, 1, 1)
         
+        # 設定密碼標籤
         self.label_8 = QtWidgets.QLabel(self.layoutWidget)
         font = QtGui.QFont()
         font.setPointSize(13)
@@ -105,6 +120,7 @@ class Ui_MainWindow(object):
         self.label_8.setObjectName("label_8")
         self.gridLayout.addWidget(self.label_8, 2, 0, 1, 1)
         
+        # 設定註冊日期標籤
         self.label_9 = QtWidgets.QLabel(self.layoutWidget)
         font = QtGui.QFont()
         font.setPointSize(13)
@@ -112,27 +128,33 @@ class Ui_MainWindow(object):
         self.label_9.setObjectName("label_9")
         self.gridLayout.addWidget(self.label_9, 3, 0, 1, 1)
         
-        self.lineEdit_7 = QtWidgets.QLineEdit(self.layoutWidget)
-        self.lineEdit_7.setObjectName("lineEdit_7")
-        self.gridLayout.addWidget(self.lineEdit_7, 3, 1, 1, 1)
+        # 設定註冊日期輸入框
+        self.reg_date = QtWidgets.QLineEdit(self.layoutWidget)
+        self.reg_date.setObjectName("reg_date")
+        self.dateEdit.setDisplayFormat("yyyy/MM/dd")
+        self.gridLayout.addWidget(self.reg_date, 3, 1, 1, 1)
         
-        # 設定按鈕佈局
+        # 設定按鈕佈局小工具
         self.layoutWidget1 = QtWidgets.QWidget(self.centralwidget)
         self.layoutWidget1.setGeometry(QtCore.QRect(190, 450, 431, 31))
         self.layoutWidget1.setObjectName("layoutWidget1")
         
+        # 設定水平佈局
         self.horizontalLayout = QtWidgets.QHBoxLayout(self.layoutWidget1)
         self.horizontalLayout.setContentsMargins(0, 0, 0, 0)
         self.horizontalLayout.setObjectName("horizontalLayout")
         
+        # 設定新增按鈕
         self.pushButton = QtWidgets.QPushButton(self.layoutWidget1)
         self.pushButton.setObjectName("pushButton")
         self.horizontalLayout.addWidget(self.pushButton)
         
+        # 設定清除按鈕
         self.pushButton_2 = QtWidgets.QPushButton(self.layoutWidget1)
         self.pushButton_2.setObjectName("pushButton_2")
         self.horizontalLayout.addWidget(self.pushButton_2)
         
+        # 設定上一頁按鈕
         self.pushButton_3 = QtWidgets.QPushButton(self.layoutWidget1)
         self.pushButton_3.setObjectName("pushButton_3")
         self.horizontalLayout.addWidget(self.pushButton_3)
@@ -145,13 +167,16 @@ class Ui_MainWindow(object):
         self.label_3.setFont(font)
         self.label_3.setObjectName("label_3")
         
-        # 設定主視窗的中央小工具、選單欄和狀態欄
+        # 設定主視窗的中央小工具
         MainWindow.setCentralWidget(self.centralwidget)
+        
+        # 設定選單欄
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 799, 21))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         
+        # 設定狀態欄
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
@@ -179,11 +204,11 @@ class Ui_MainWindow(object):
 
 if __name__ == "__main__":
     import sys
-    # 創建應用程序對象
+    # 創建應用程式
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
     ui.setupUi(MainWindow)
     MainWindow.show()
-    # 執行應用程序的主循環
+    # 執行應用程式
     sys.exit(app.exec_())
