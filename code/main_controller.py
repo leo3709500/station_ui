@@ -2,7 +2,7 @@ from PyQt5 import QtWidgets
 from main_window import Ui_MainWindow as MainWindowUI
 from login_window import Ui_MainWindow as LoginWindowUI
 from manage_window import Ui_MainWindow as ManageWindowUI
-from add import Ui_MainWindow as AddWindowUI
+from add_window import Ui_MainWindow as AddWindowUI
 from user_find import Ui_MainWindow as UserFindWindowUI
 from add_vehicle import Ui_MainWindow as AddVehicleUI
 from add_violation import Ui_MainWindow as AddViolationUI

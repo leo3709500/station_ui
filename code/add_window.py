@@ -196,6 +196,8 @@ class Ui_MainWindow(object):
         self.address.clear()
         self.password.clear()
         self.dateEdit.setDate(QtCore.QDate.currentDate())
+        self.ssn.clear()
+        self.phone_number.clear()
 
     def retranslateUi(self, MainWindow):
         # 設定翻譯
